@@ -192,5 +192,10 @@ def call_Anuja():
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
+     elif 'what is your pet name?' in command:
+
+         cmd = talk('Rocky')
+
+        print(cmd)              
 
 call_Anuja()
