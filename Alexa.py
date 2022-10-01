@@ -189,6 +189,9 @@ def call_Anuja():
         genre=["Rock", "Heavy Metal","Pop","R&B","EDM"]
         cmd = talk(random.choice(genre)
         print(cmd)
+      elif 'True or False?' in command:
+        cmd = talk(random.choice("True", "False"))
+        print(cmd)
     else:
         default = talk('I am sorry, I did not understand ')
         print(default)
